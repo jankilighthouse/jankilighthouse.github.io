@@ -271,3 +271,30 @@ a.project-button:hover::after {border-color: #65b295 transparent transparent tra
 a.button-nested {color: #fff; text-decoration: none; -webkit-transform: skew(-10deg, 0);}
 a.button-nested:hover { color: #fff; background-color:#153a2c;}
 a.button-nested:hover::after {border-color:#153a2c transparent transparent transparent;}
+
+@media screen and (max-width: 768px) {
+  .github-corner {
+    display: none;
+  }
+
+  .img-container {
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .main-name {
+    text-align: center;
+  }
+
+  .summary-container h3 {
+    text-align: center;
+  }
+
+  .summary-container {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 1200px) {}
